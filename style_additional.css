@@ -1,0 +1,758 @@
+.city_link_wrapp {
+	text-align: center;
+}
+
+.city_link_wrapp p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 110%;
+	color: #FFF;
+}
+
+.city_link {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 20px;
+	position: relative;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 110%;
+	color: #FFF;
+	-webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.city_link:hover {
+	color: #FFD300;
+}
+
+.city_link:after {
+	display: block;
+	content: "";
+	width: 13px;
+	height: 8px;
+	background-image: url(img/arrow_down.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
+
+.city_list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+	padding: 10px 0 22px 0;
+}
+
+.city_list li {
+	width: 35.5%;
+	padding: 5px 10px;
+}
+
+.city_list li:nth-child(3n + 3) {
+	width: 29%;
+}
+
+.city_list li a {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: -.5px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	color: #FFF;
+	-webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.city_list li a:hover {
+	color: #FFD300;
+}
+
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 102px 0 47px 0;
+}
+
+.cards_slider_headewr {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards_slider_headewr > div:nth-child(1) {
+	width: calc(100% - 120px);
+	padding: 10px 10px 10px 0;
+}
+
+.cards_slider_headewr > div:nth-child(2) {
+	width: 120px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px 0 10px 10px;
+	margin-right: -5px;
+}
+
+.cr_sl_arrow {
+	display: block;
+	width: 44px;
+	height: 48px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.cr_sl_prev {
+	margin-right: 15px;
+}
+
+.cards_slider {
+	margin: 6px -10px;
+	height: 500px;
+	overflow: hidden;
+}
+
+.cards_slider .slide {
+	padding: 10px;
+}
+
+.card_crane {
+	width: 305px;
+	min-height: 473px;
+	background: #FFF;
+	border-radius: 5px;
+}
+
+.card_crane .img_box {
+	display: block;
+	height: 202px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 5px 5px 0 0;
+}
+
+.card_crane .img_box img {
+	display: block;
+	width: auto;
+	height: auto;
+	object-fit: cover;
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.card_crane_content {
+	padding: 15px 14px 20px 14px;
+}
+
+.card_crane_title {
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+
+.card_crane_title h3 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 120%;
+	color: #2E2E2E;
+}
+
+.card_crane_descript {
+    min-height: 136px;
+    padding: 14px 0 0 0;
+}
+
+.card_crane_row {
+	display: flex;
+	padding: 3px 0;
+}
+
+.card_crane_row > div:nth-child(1) {
+	width: calc(100% - 30px);
+}
+
+.card_crane_row > div:nth-child(2) {
+	width: 30px;
+	text-align: right;
+}
+
+.card_crane_row h3 {
+	font-family: 'Onest';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 120%;
+	color: #919191;
+}
+
+.card_crane_row p {
+	font-family: 'Onest';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 120%;
+	color: #414141;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - FAQ --*/
+
+.faqs {
+    padding-bottom: 67px;
+}
+
+.faq_item {
+	margin: 20px 0;
+	padding: 0 20px 0 20px;
+	background: #FFF;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+.faq_item:nth-child(1) {
+	margin-top: 5px;
+}
+
+.faq_item_title {
+    padding-right: 45px;
+    position: relative;
+    cursor: pointer;
+}
+.faq_item_title:after {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(img/faq_arrow.svg);
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 3px;
+    transform: rotate(0);
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+.faq_item.active .faq_item_title:after {
+    transform: rotate(-180deg);
+}
+.dr_content {
+    display: none;
+}
+.faq_item_title {
+	display: flex;
+    align-items: center;
+	min-height: 74px;
+}
+
+.faq_item_title h3 {
+	font-family: 'Tactic Sans';
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	color: #2E2E2E;
+}
+
+.faq_item_content {
+	padding: 18px 0 15px 0;
+	border-top: 1px solid #E2E2E2;
+}
+
+.faq_item_content p {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	color: #414141;
+}
+
+/*-- /Section - FAQ --*/
+
+/*-- Section - Testimonials --*/
+
+.test_sect {
+    padding: 87px 0 70px 0;
+}
+
+.test_sect > .row {
+	position: relative;
+	z-index: 3;
+}
+
+.testimonial_slider {
+	margin: 0 -10px;
+	padding: 33px 0 20px 0;
+}
+
+.test_sl_prev {
+    margin-right: 15px;
+}
+
+.test_slide {
+	padding: 10px;
+}
+
+.testimonial_thumb {
+	padding: 20px;
+	width: 305px;
+	min-height: 260px;
+	background: #FFF;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+
+.testimonial_thumb_descript {
+    min-height: 171px;
+}
+
+.testimonial_thumb_descript p {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 140%;
+	color: #2E2E2E;
+}
+
+.testimonial_thumb_footer h3 {
+	padding: 2px 0;
+	font-family: 'Onest';
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 120%;
+	color: #414141;
+}
+
+.testimonial_thumb_footer p {
+	padding: 2px 0;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 120%;
+	color: #919191;
+}
+
+/*-- /Section - Testimonials --*/
+
+@media only screen and (max-width: 1280px) {
+
+/*-- Header --*/
+
+.city_link_wrapp {
+    position: relative;
+    top: -5px;
+}
+
+/*-- /Header --*/
+
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 102px 0 11px 0;
+}
+
+.cards_slider_headewr > div:nth-child(1) {
+    padding: 10px 10px 5px 0;
+}
+
+.cards_slider_headewr > div:nth-child(2) {
+    padding: 20px 0 5px 10px;
+}
+
+.card_crane {
+    width: 235px;
+    min-height: 430px;
+}
+
+.cards_slider {
+    margin: 0 -10px;
+}
+
+.card_crane .img_box {
+    height: 156px;
+}
+
+.card_crane_title h3 {
+    font-size: 16px;
+}
+
+.card_crane_descript {
+    min-height: 138px;
+}
+
+.card_crane_row h3 {
+    font-size: 14px;
+}
+
+.card_crane_row p {
+    font-size: 14px;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - Testimonials --*/
+
+.testimonial_slider {
+    padding: 14px 0 20px 0;
+}
+
+.testimonial_thumb {
+    padding: 15px;
+    width: 235px;
+    min-height: 245px;
+}
+
+.testimonial_thumb_descript p {
+    font-size: 13px;
+}
+
+/*-- /Section - Testimonials --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+/*-- Header --*/
+
+.city_link_wrapp {
+    top: 0;
+    padding: 10px 0 15px 0;
+}
+
+/*-- /Header --*/
+
+}
+
+@media only screen and (max-width: 770px) {
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 102px 0 11px 0;
+}
+
+.cards_slider_headewr > div:nth-child(1) {
+    padding: 10px 10px 5px 0;
+}
+
+.cards_slider_headewr > div:nth-child(2) {
+    padding: 11px 0 5px 10px;
+}
+
+.card_crane {
+    width: 216px;
+    min-height: 424px;
+}
+
+.card_crane .img_box {
+    height: 144px;
+}
+
+.card_crane_title h3 {
+    font-size: 16px;
+}
+
+.card_crane_descript {
+    min-height: 138px;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - Testimonials --*/
+
+.testimonial_thumb {
+    padding: 15px;
+    width: 216px;
+    min-height: 245px;
+}
+
+/*-- /Section - Testimonials --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+/*-- Header --*/
+
+.city_list li {
+    width: 100% !important;
+    padding: 2px 10px;
+}
+
+/*-- /Header --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 102px 0 11px 0;
+}
+.cards_slider {
+    height: 480px;
+}
+.card_crane {
+    width: 207px;
+    min-height: 420px;
+}
+.card_crane .img_box {
+    height: 140px;
+}
+
+.card_crane_title h3 {
+    font-size: 16px;
+}
+
+.card_crane_title h3 br {
+	display: none;
+}
+
+.card_crane_descript {
+    min-height: 138px;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - FAQ --*/
+
+.faq_item_title h3 {
+    font-size: 18px;
+}
+
+.faq_item_title:after {
+    right: 0;
+}
+
+.faq_item_content p {
+    font-size: 16px;
+}
+
+/*-- /Section - FAQ --*/
+
+}
+
+@media only screen and (max-width: 400px) {
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 73px 0 52px 0;
+}
+.cards_slider {
+    height: 530px;
+}
+.card_crane {
+    width: 330px;
+    min-height: 507px;
+    margin: 0 auto;
+}
+.card_crane .img_box {
+    height: 227px;
+}
+
+.card_crane_title h3 {
+    font-size: 16px;
+}
+
+.card_crane_title h3 br {
+	display: none;
+}
+
+.card_crane_descript {
+    min-height: 138px;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - FAQ --*/
+
+.faq_item {
+    margin: 20px 0;
+    padding: 0 12px 0 12px;
+}
+
+/*-- /Section - FAQ --*/
+
+/*-- Section - Testimonials --*/
+
+.testimonial_thumb {
+    width: calc(100vw - 30px);
+    min-height: 215px;
+}
+
+/*-- /Section - Testimonials --*/
+
+}
+
+/*-- Section - Tags --*/
+
+.tags_wrapp {
+	margin-bottom: 30px;
+	padding: 20px 50px 40px 50px;
+	position: relative;
+}
+
+.list_wrapp_dr {
+	overflow: hidden;
+}
+
+.tags_list_yellow {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tags_list_yellow li {
+	padding: 5px;
+}
+
+.tags_list_yellow li a {
+	white-space: nowrap;
+	padding: 3px 10px;
+	min-height: 30px;
+}
+
+.tags_dr_btn {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	top: 43px;
+	right: 15px;
+}
+
+.dr_btn {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: none;
+	background: transparent;
+	overflow: hidden;
+	-webkit-transition-property: transform;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.dr_btn.active {
+	transform: rotate(-180deg);
+}
+
+.dr_btn svg {
+	transform: rotate(90deg);
+	width: 100%;
+    height: auto;
+}
+
+.tags_wrapp.hide .tags_dr_btn {
+	display: none;
+}
+
+/*-- /Section - Tags --*/
+
+@media only screen and (max-width: 600px) {
+
+/*-- Section - Tags --*/
+
+.tags_wrapp {
+	margin-bottom: 30px;
+   	padding: 15px 15px 50px 15px;
+}
+
+.tags_dr_btn {
+    width: 40px;
+    height: 40px;
+    top: calc(100% - 45px);
+    right: auto;
+    left: calc(50% - 20px);
+}
+
+.dr_btn {
+    width: 40px;
+    height: 40px;
+}
+
+/*-- /Section - Tags --*/
+
+}
+
+@media only screen and (max-width: 400px) {
+
+/*-- Section - Tags --*/
+
+.tags_list_yellow li {
+    padding: 2px;
+}
+
+/*-- /Section - Tags --*/
+
+}
