@@ -387,6 +387,21 @@ $(document).ready(function() {
 
     // ----------------
 
+    if( $(".wa_slider").length > 0 ) {
+      $(".wa_slider").not(".slick-initialized").slick({
+          dots: true,
+          arrows: false,
+          // autoplay: true,
+          // autoplaySpeed: 4000,
+          speed: 1200,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          fade: true
+      });
+    }
+
+    // ----------------
+
     getTagsListParams();
 
     $(".dr_btn").on('click',function (e) {
