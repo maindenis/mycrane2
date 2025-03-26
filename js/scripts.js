@@ -429,23 +429,117 @@ $(document).ready(function() {
       }
     });
 
+    // ------------------
+
+    if( $(".testimonial_slider_final").length > 0 ) {
+      $(".testimonial_slider_final").not(".slick-initialized").slick({
+          dots: true,
+          arrows: true,
+          // autoplay: true,
+          // autoplaySpeed: 4000,
+          speed: 1200,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          variableWidth: true,
+          prevArrow: $(".test_sl_prev_final"),
+          nextArrow: $(".test_sl_next_final")
+      });
+    }
+
+    // -----------------
+
+    const swiperEl = document.querySelector('swiper-container');
+    const params = {
+      injectStyles: [`
+      .swiper-pagination {
+        position: absolute;
+        bottom: 0  !important;
+        top: auto  !important;
+      }
+      .swiper-pagination-bullet {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 17px !important;
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+        background: #626262;
+      }
+      .swiper-pagination-bullet-active {
+        background: #FFD300;
+      }
+      swiper-container {
+        min-height: 600px;
+      }
+      .swiper-button-prev {
+        width: 70px;
+        height: 70px;
+        background-image: url(img/swipe_left.svg);
+        background-size: contain;
+        background-position: center;
+        left: 19px;
+        margin-top: -60px;
+      }
+      .swiper-button-next {
+        width: 70px;
+        height: 70px;
+        background-image: url(img/swipe_right.svg);
+        background-size: contain;
+        background-position: center;
+        right: 19px;
+        margin-top: -60px;
+      }
+      .swiper-button-prev svg,
+      .swiper-button-next svg {
+        display: none;
+      }
+      `],
+      pagination: {
+        clickable: true,
+      },
+      navigation: {
+        clickable: true,
+      }
+    }
+    Object.assign(swiperEl, params)
+    swiperEl.initialize();
+
+    // --------------
+    
+    if( $(".latest_news_slider").length > 0 ) {
+      $(".latest_news_slider").not(".slick-initialized").slick({
+          dots: false,
+          arrows: true,
+          // autoplay: true,
+          // autoplaySpeed: 4000,
+          speed: 1200,
+          slidesToShow: 4,
+          slidesToScroll: 2,
+          variableWidth: true,
+          prevArrow: $(".latest_news_prev"),
+          nextArrow: $(".latest_news_next")
+      });
+    }
+
 });
 
   function initMap() {
-    var mapZoom = parseFloat($("#map").attr("data-zoom"));
-    var lat = parseFloat($("#map").attr("data-lat"));
-    var long = parseFloat($("#map").attr("data-long"));
-    map = new google.maps.Map(document.getElementById("map"), {
-      zoom: mapZoom,
-      center: { lat: lat, lng: long },
-      mapTypeControl: false,
-    });
-    new google.maps.Marker({
-      position: { lat: lat, lng: long },
-      map,
-      title: "My Crane",
-      icon: 'img/map_pin.svg'
-    });
+    if($("#map").length > 0) {
+      var mapZoom = parseFloat($("#map").attr("data-zoom"));
+      var lat = parseFloat($("#map").attr("data-lat"));
+      var long = parseFloat($("#map").attr("data-long"));
+      map = new google.maps.Map(document.getElementById("map"), {
+        zoom: mapZoom,
+        center: { lat: lat, lng: long },
+        mapTypeControl: false,
+      });
+      new google.maps.Marker({
+        position: { lat: lat, lng: long },
+        map,
+        title: "My Crane",
+        icon: 'img/map_pin.svg'
+      });
+    }
   }
 
   window.initMap = initMap;
