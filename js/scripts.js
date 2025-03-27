@@ -540,6 +540,21 @@ $(document).ready(function() {
       });
     }
 
+    if( $(".rervs_slider_cc").length > 0 ) {
+      $(".rervs_slider_cc").not(".slick-initialized").slick({
+          dots: true,
+          arrows: true,
+          // autoplay: true,
+          // autoplaySpeed: 4000,
+          speed: 1200,
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          variableWidth: true,
+          prevArrow: $(".rev_slide_prev"),
+          nextArrow: $(".rev_slide_next")
+      });
+    }
+
 });
 
   function initMap() {
