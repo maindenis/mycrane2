@@ -129,7 +129,7 @@
 .thumb_3_final {
 	width: calc(20% - 14px);
 	margin: 7px;
-	height: 278px;
+	min-height: 278px;
 	background: #FFF;
 	border: 1px solid #B9B9B9;
 	box-shadow: 4px 4px 4px 4px rgba(207, 206, 206, .25);
@@ -221,6 +221,7 @@
 	border: 1px solid #878787;
 	box-shadow: 4px 4px 4px 4px rgba(207, 206, 206, 0.25);
 	border-radius: 20px;
+	margin: 0 auto;
 	padding: 105px 18px 15px 18px;
 	position: relative;
 	text-align: center;
@@ -411,6 +412,7 @@
 
 .atwork_thumb .img_box {
 	height: 320px;
+	overflow: hidden;
 }
 
 .atwork_thumb .img_box img {
@@ -620,6 +622,7 @@ swiper-slide .atwork_thumb {
 	background: #FFF;
 	border: 1px solid #878787;
 	border-radius: 5px;
+	margin: 0 auto;
 }
 
 .latest_news_thumb .img_box {
@@ -742,6 +745,10 @@ swiper-slide .atwork_thumb {
 	bottom: -178px;
 	left: 50%;
 	transform: translate(-50%, 0);
+}
+
+.article_shape_final_resp {
+	display: none;
 }
 
 /*-- /Section 9 - Our Partners --*/
@@ -1499,3 +1506,479 @@ swiper-slide .atwork_thumb {
 }
 
 /*-- /Section 7 - CC Partners --*/
+
+@media only screen and (max-width: 1340px) {
+
+/*-- Section 2 - Main Page Final --*/
+
+.top_thumb {
+    width: calc(33.33% - 20px);
+    margin: 10px 10px;
+}
+
+/*-- /Section 2 - Main Page Final --*/
+
+swiper-slide {
+	opacity: 1 !important;
+}
+
+/*-- Section 10 - Our Partners --*/
+
+.final_thumb_2 {
+    min-height: 612px;
+    padding: 98px 70px 20px 70px;
+}
+
+.final_thumb_2 h3 {
+    padding-bottom: 40px;
+    font-size: 34px;
+}
+
+.final_thumb_2_descript p {
+    font-size: 20px;
+}
+
+.yellow_pill_circle {
+    min-width: 296px;
+    min-height: 60px;
+    font-size: 23px;
+}
+
+/*-- /Section 10 - Our Partners --*/
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+/*-- Section 2 - Main Page Final --*/
+
+.thumb_2_final {
+    min-height: 419px;
+}
+
+.thumb_2_final_descript h3 {
+    font-size: 25px;
+}
+
+.thumb_2_final_descript p {
+    font-size: 20px;
+}
+
+/*-- /Section 2 - Main Page Final --*/
+
+/*-- Section 4 - Main Page Final --*/
+
+.thumb_3_final {
+    min-height: 240px;
+}
+
+.thumb_3_final .thumb_3_icon_box {
+    margin: 10px 0 0 0;
+    height: 142px;
+}
+
+.thumb_3_final p {
+    font-size: 16px;
+}
+
+/*-- /Section 4 - Main Page Final --*/
+
+/*-- Section 6 - Our Partners --*/
+
+.testimonial_thumb_final {
+    width: 350px;
+    min-height: 399px;
+    padding: 85px 18px 15px 18px;
+}
+
+.testimonial_thumb_header_final {
+    min-height: 78px;
+}
+
+.testimonial_thumb_header_final h3 {
+    padding: 5px 0;
+    font-size: 24px;
+}
+
+.testimonial_thumb_header_final p {
+    font-size: 18px;
+}
+
+.testimonial_icon {
+    margin: 0 auto 15px auto;
+}
+
+.testimonial_thumb_content_final p {
+    font-size: 14px;
+}
+
+/*-- /Section 6 - Our Partners --*/
+
+/*-- Section 7 - Our Partners --*/
+
+swiper-slide {
+	opacity: 1 !important;
+}
+
+/*-- /Section 7 - Our Partners --*/
+
+/*-- Section 9 - Our Partners --*/
+
+.article_shape_final {
+	display: none;
+}
+
+.article_shape_final_resp {
+	display: block;
+	position: absolute;
+	bottom: -178px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	max-width: 90%;
+}
+
+.final_article_promo h2 {
+    font-size: 93px;
+}
+
+/*-- /Section 9 - Our Partners --*/
+
+/*-- Section 9 - Our Partners --*/
+
+.final_thumb_2 {
+	min-height: 540px;
+    padding: 70px 35px 20px 35px;
+}
+
+/*-- /Section 9 - Our Partners --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+
+/*-- Section 2 - Main Page Final --*/
+
+.top_thumb {
+    padding: 21px 20px 25px 20px;
+}
+
+.top_thumb p {
+    font-size: 20px;
+}
+
+/*-- /Section 2 - Main Page Final --*/
+
+/*-- Section 3 - Main Page Final --*/
+
+.thumb_2_final_descript h3 {
+    font-size: 20px;
+}
+
+.thumb_2_final_descript p {
+    font-size: 18px;
+}
+
+/*-- /Section 3 - Main Page Final --*/
+
+/*-- Section 7 - Our Partners --*/
+
+.swiper_slider_wrapp {
+    min-height: 541px;
+}
+
+swiper-container {
+    padding-top: 0;
+    padding-bottom: 36px;
+    min-height: 541px;
+}
+
+.sect_7_final {
+    padding: 40px 0 1px 0;
+}
+
+.sect_7_final > .row:before {
+    width: 137px;
+    height: 160px;
+    top: -40px;
+    right: -17px;
+}
+
+/*-- /Section 7 - Our Partners --*/
+
+}
+
+@media only screen and (max-width: 768px) {
+
+/*-- Section 3 - Main Page Final --*/
+
+.thumb_2_final {
+    min-height: 310px;
+}
+
+.thumb_2_final .img_box {
+    height: 170px;
+}
+
+.thumb_2_final .img_box img {
+    height: 170px;
+}
+
+.thumb_2_final_descript h3 {
+    font-size: 16px;
+}
+
+.thumb_2_final_descript p {
+    font-size: 15px;
+}
+
+/*-- /Section 3 - Main Page Final --*/
+
+/*-- Section 4 - Main Page Final --*/
+
+.sect_4_final {
+    padding: 20px 0 50px 0;
+}
+
+.thumbs_3_final {
+	justify-content: center;
+}
+
+.thumb_3_final {
+    width: calc(33.33% - 14px);
+}
+
+/*-- /Section 4 - Main Page Final --*/
+
+/*-- Section 8 - Our Partners --*/
+
+.world_title_2 {
+    padding: 45px 0 30px 0;
+}
+
+/*-- /Section 8 - Our Partners --*/
+
+/*-- Section 10 - Our Partners --*/
+
+.final_thumbs_2 {
+    margin: 20px 0 30px 0;
+}
+
+.final_thumb_2 {
+    min-height: 445px;
+    padding: 30px 20px 20px 20px;
+}
+
+.final_thumb_2 h3 {
+	min-height: 80px;
+	padding-bottom: 25px;
+	font-size: 23px;
+}
+
+.final_thumb_2_descript p {
+    font-size: 18px;
+}
+
+.yellow_pill_circle {
+    min-width: 190px;
+    min-height: 59px;
+    font-size: 21px;
+}
+
+/*-- /Section 10 - Our Partners --*/
+
+}
+
+@media only screen and (max-width: 700px) {
+
+/*-- Section 2 - Main Page Final --*/
+
+.sect_final {
+    padding: 20px 0 40px 0;
+}
+
+.top_thumb {
+    width: calc(100% - 20px);
+    margin: 10px 10px;
+}
+
+/*-- /Section 2 - Main Page Final --*/
+
+/*-- Section 7 - Our Partners --*/
+
+.swiper-slide-active .atwork_thumb {
+    width: calc(100vw - 60px);
+    height: 404px;
+    top: -42px;
+}
+
+.sect_7_final > .row:before {
+	display: none;
+}
+
+.atwork_thumb_descript p {
+    font-size: 16px;
+}
+
+/*-- /Section 7 - Our Partners --*/
+
+/*-- Section 9 - Our Partners --*/
+
+.final_article {
+    padding: 0 0 10px 13%;
+}
+
+.final_article p {
+    font-size: 18px;
+}
+
+/*-- /Section 9 - Our Partners --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+/*-- Section 3 - Main Page Final --*/
+
+.thumb_2_final {
+    width: calc(100% - 30px);
+}
+
+.thumb_2_final_descript h3 {
+    font-size: 20px;
+}
+
+.thumb_2_final_descript p {
+    font-size: 18px;
+}
+
+/*-- /Section 3 - Main Page Final --*/
+
+/*-- Section 8 - Our Partners --*/
+
+.world_title_2 > div:nth-child(2) {
+    justify-content: center;
+}
+
+/*-- /Section 8 - Our Partners --*/
+
+/*-- Section 9 - Our Partners --*/
+
+.sect_9_final {
+    padding: 57px 0 115px 0;
+}
+
+.final_article {
+    padding: 0;
+}
+
+.final_article_promo h2 {
+    font-size: 45px;
+}
+
+.article_shape_final_resp {
+    bottom: -84px;
+}
+
+/*-- /Section 9 - Our Partners --*/
+
+/*-- Section 10 - Our Partners --*/
+
+.final_thumbs_2 {
+    margin: 20px 0 30px 0;
+}
+.final_thumb_2 {
+	width: 100%;
+    min-height: 300px;
+    padding: 30px 20px 20px 20px;
+}
+.final_thumb_2_descript {
+    min-height: 166px;
+    padding-bottom: 20px;
+}
+
+/*-- /Section 10 - Our Partners --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+
+/*-- Section 4 - Main Page Final --*/
+.thumb_3_final {
+    width: calc(50% - 14px);
+}
+/*-- /Section 4 - Main Page Final --*/
+
+/*-- Section 6 - Our Partners --*/
+
+.testimonial_slider_final_wrapp {
+    margin: 18px 0 40px 0;
+    position: relative;
+}
+
+.testimonial_thumb_final {
+    width: 310px;
+}
+
+.test_sl_next_final {
+    width: 30px;
+    height: 30px;
+    top: auto;
+    bottom: -3px;
+    right: 10px;
+}
+
+.test_sl_next_final svg {
+	width: 30px;
+    height: auto;
+    top: -13px;
+    left: 0;
+}
+
+.test_sl_prev_final {
+    width: 30px;
+    height: 30px;
+    top: auto;
+    bottom: -3px;
+    left: 10px;
+}
+
+.test_sl_prev_final svg {
+	width: 30px;
+    height: auto;
+    top: -1px;
+    left: 0;
+}
+
+/*-- /Section 6 - Our Partners --*/
+
+/*-- Section 8 - Our Partners --*/
+
+.latest_news_arrow {
+    width: 30px;
+    height: 30px;
+    top: calc(50% + 128px);
+}
+
+.latest_news_prev {
+    left: 15px;
+}
+
+.latest_news_prev svg {
+	width: 30px;
+	height: auto;
+    position: absolute;
+    top: -17px;
+    left: 0;
+}
+
+.latest_news_next svg {
+	width: 30px;
+	height: auto;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+/*-- /Section 8 - Our Partners --*/
+
+}
