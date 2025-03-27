@@ -1044,6 +1044,7 @@ swiper-slide .atwork_thumb {
 
 .mr_slider_wrapp {
     padding: 75px 0 70px 0;
+    position: relative;
 }
 
 .mr_slider {
@@ -1056,7 +1057,7 @@ swiper-slide .atwork_thumb {
 
 .mr_thumb {
 	display: block;
-	width: 331px;
+	width: 330px;
 	min-height: 407px;
 	background: #FFF;
 	border: 1px solid #878787;
@@ -1121,7 +1122,9 @@ swiper-slide .atwork_thumb {
 	border: none;
 	background: transparent;
 	position: absolute;
-	top: 50%;
+	top: calc(50% - 72px);
+	cursor: pointer;
+	z-index: 3;
 }
 
 .mr_slide_arrow svg {
@@ -1129,11 +1132,11 @@ swiper-slide .atwork_thumb {
 }
 
 .mr_slide_prev {
-	left: -20px;
+    left: -114px;
 }
 
 .mr_slide_next {
-	 right: -17px;
+	right: -114px;
 }
 
 .mr_slide_prev svg {
@@ -1347,8 +1350,6 @@ swiper-slide .atwork_thumb {
 
 .active_cc .inner h2 {
 	padding-bottom: 22px;
-	font-size: 55px;
-	line-height: 100%;
 	color: #2E2E2E;
 }
 
@@ -1507,6 +1508,58 @@ swiper-slide .atwork_thumb {
 
 /*-- /Section 7 - CC Partners --*/
 
+@media only screen and (max-width: 1640px) {
+
+/*-- Section 2 - CD --*/
+
+.mr_slider_wrapp {
+    padding: 75px 25px 70px 25px;
+}
+
+.mr_slider {
+    margin: 0;
+}
+
+.mr_slide_prev {
+    left: -20px;
+}
+
+.mr_slide_next {
+    right: -20px;
+}
+
+/*-- /Section 3 - CD --*/
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+/*-- Section 2 - CD --*/
+
+.cd_yellow > div:nth-child(2) {
+    width: 280px;
+    text-align: right;
+}
+
+.cd_yellow {
+    margin: 44px 20px;
+    padding: 22px 25px 36px 25px;
+}
+
+.cd_yellow h2 {
+    padding-bottom: 16px;
+    font-size: 26px;
+}
+
+.cd_yellow p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*-- /Section 2 - CD --*/
+
+}
+
 @media only screen and (max-width: 1340px) {
 
 /*-- Section 2 - Main Page Final --*/
@@ -1545,6 +1598,56 @@ swiper-slide {
 }
 
 /*-- /Section 10 - Our Partners --*/
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+/*-- Section 4 - CC Partners --*/
+
+.sect_4_cc {
+    padding: 45px 0 40px 0;
+}
+
+.cc_thumbs .mr_thumb {
+    width: calc(33.33% - 20px);
+}
+
+/*-- /Section 4 - CC Partners --*/
+
+/*-- Section 1 - CD --*/
+
+.sect_1_cd {
+    padding-top: 172px;
+}
+
+.cd_article_two_cols > div:nth-child(1) {
+    width: 505px;
+}
+
+.cd_article_two_cols > div:nth-child(2) {
+	width: calc(100% - 505px);
+}
+
+.cd_article_two_cols > div:nth-child(2) h2 {
+    padding: 20px 0;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+/*-- /Section 1 - CD --*/
+
+/*-- Section 3 - CD --*/
+
+.sect_3_cd {
+    padding: 5px 0 10px 0;
+}
+
+.mr_slider_wrapp {
+    padding: 20px 25px 13px 25px;
+}
+
+/*-- /Section 3 - CD --*/
 
 }
 
@@ -1652,6 +1755,46 @@ swiper-slide {
 
 /*-- /Section 9 - Our Partners --*/
 
+/*-- Section 2 - CC Page --*/
+
+.cc_info {
+    margin: 50px auto 50px auto;
+}
+
+.cc_info p {
+    font-size: 25px;
+}
+
+.sect_3_cc_shape h2 {
+    font-size: 100px;
+}
+
+/*-- /Section 2 - CC Page --*/
+
+/*-- Section 5 - CC Partners --*/
+
+.active_cc .inner {
+    padding: 25px 20px 30px 25px;
+}
+
+.active_cc_img {
+    bottom: 0;
+    right: 0;
+    height: 69%;
+}
+
+/*-- /Section 5 - CC Partners --*/
+
+/*-- Section 7 - CC Partners --*/
+
+.rev_cc {
+    width: 405px;
+    min-height: 317px;
+    padding: 48px 20px 20px 20px;
+}
+
+/*-- /Section 7 - CC Partners --*/
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -1704,6 +1847,73 @@ swiper-container {
 }
 
 /*-- /Section 7 - Our Partners --*/
+
+/*-- Section 1 - CC Page --*/
+
+.promo_cc {
+    min-height: 600px;
+}
+
+.promo_descript {
+	width: 100%;
+    max-width: 100% !important;
+    padding-bottom: 231px;
+}
+
+.promo_descript_cc h1 {
+    padding-bottom: 34px;
+    font-size: 33px;
+}
+
+.promo_descript_cc p {
+    font-size: 24px;
+}
+
+/*-- /Section 1 - CC Page --*/
+
+/*-- Section 4 - CC Partners --*/
+
+.cc_thumbs .mr_thumb {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 4 - CC Partners --*/
+
+/*-- Section 7 - CC Partners --*/
+
+.reg_box {
+    margin: 150px 0 90px 0;
+}
+
+/*-- /Section 7 - CC Partners --*/
+
+/*-- Section 1 - CD --*/
+
+.cd_article_two_cols > div:nth-child(1) {
+    width: 100%;
+}
+
+.cd_article_two_cols > div:nth-child(2) {
+	width: 100%;
+	padding-top: 0;
+	text-align: center;
+}
+
+.cd_article_two_cols > div:nth-child(1) img {
+	margin: 0 auto;
+}
+
+.cd_article_two_cols > div:nth-child(2) .yellow_pill {
+    margin: 26px 0 13px 0;
+}
+
+.cd_article_inner p {
+    padding: 30px 0 30px 0;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+/*-- /Section 1 - CD --*/
 
 }
 
@@ -1786,6 +1996,92 @@ swiper-container {
 
 /*-- /Section 10 - Our Partners --*/
 
+/*-- Section 5 - CC Partners --*/
+
+.active_cc {
+    margin: 26px 0 20px 0;
+}
+
+.active_cc .inner h2 {
+    padding-bottom: 0;
+}
+
+.active_cc .inner ul li {
+    margin: 8px 0;
+    font-size: 17px;
+}
+
+.active_cc .inner p {
+    padding: 12px 0 4px 0;
+    font-size: 20px;
+}
+
+.active_cc_inline > div a {
+    min-width: 197px;
+    padding: 5px 17px;
+}
+
+/*-- /Section 5 - CC Partners --*/
+
+/*-- Section 2 - CD --*/
+
+.cd_yellow {
+    margin: 20px 20px 0 20px;
+}
+
+.cd_yellow > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.cd_yellow > div:nth-child(2) {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+}
+
+/*-- /Section 2 - CD --*/
+
+/*-- Section 3 - CD --*/
+
+.mr_slider_wrapp {
+	position: relative;
+	padding: 20px 0 13px 0;
+}
+
+.mr_slide_arrow {
+    width: 30px;
+    height: 30px;
+    top: auto;
+    bottom: 9px;
+}
+
+.mr_slide_prev {
+	left: 20px;
+}
+
+.mr_slide_next {
+	right: 20px;
+}
+
+.mr_slide_next svg {
+	width: 30px;
+	height: auto;
+    top: -12px;
+}
+
+.mr_slide_prev svg {
+	width: 30px;
+	height: auto;
+    top: 0;
+}
+
+.mr_slider .slick-dots {
+    padding: 35px 0 0 0;
+}
+
+/*-- /Section 3 - CD --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -1832,6 +2128,18 @@ swiper-container {
 }
 
 /*-- /Section 9 - Our Partners --*/
+
+/*-- Section 2 - CC Page --*/
+
+.cc_info p {
+    font-size: 20px;
+}
+
+.sect_3_cc_shape h2 {
+    font-size: 70px;
+}
+
+/*-- /Section 2 - CC Page --*/
 
 }
 
@@ -1898,7 +2206,122 @@ swiper-container {
 
 /*-- /Section 10 - Our Partners --*/
 
+/*-- Section 5 - CC Partners --*/
+
+.active_cc .inner p {
+    padding: 12px 0 4px 0;
+    font-size: 18px;
 }
+
+.active_cc .inner ul li {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.active_cc .inner ul li:before {
+    top: -3px;
+}
+
+/*-- /Section 5 - CC Partners --*/
+
+/*-- Section 6 - CC Partners --*/
+
+.sect_6_cc .reg_box {
+    margin: 92px 0 58px 0;
+}
+
+/*-- /Section 6 - CC Partners --*/
+
+/*-- Section 7 - CC Partners --*/
+
+.rervs_slider_cc_wrapp {
+    padding: 28px 0 21px 0;
+    position: relative;
+}
+
+.rev_slide_arrow {
+    width: 30px;
+    height: 30px;
+    top: auto;
+    bottom: 37px;
+}
+
+.rev_slide_prev {
+    left: 5px;
+}
+
+.rev_slide_prev svg {
+	width: 100%;
+	height: auto;
+	top: 0;
+}
+
+.rev_slide_next {
+    right: 5px;
+}
+
+.rev_slide_next svg {
+	width: 100%;
+	height: auto;
+	top: -13px;
+}
+
+/*-- /Section 7 - CC Partners --*/
+
+/*-- Section 1 - CD --*/
+
+.cd_article_two_cols > div:nth-child(2) h2 {
+    padding: 10px 0;
+    font-size: 23px;
+    line-height: 34px;
+}
+
+.cd_article_inner p {
+    padding: 20px 0 20px 0;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.cd_article_inner h3 {
+    font-size: 22px;
+}
+
+.cd_article_inner ul {
+    padding: 15px 0;
+}
+
+.cd_article_inner ul li {
+    margin: 7px 0;
+    font-size: 16px;
+}
+
+.cd_article_inner ul li:before {
+    width: 23px;
+    height: 23px;
+    top: -2px;
+}
+
+.cd_article_inner h4 {
+    padding: 22px 0 0 0;
+    font-size: 18px;
+}
+
+/*-- /Section 1 - CD --*/
+
+}
+
+@media only screen and (max-width: 550px) {
+
+/*-- Section 4 - CC Partners --*/
+
+.cc_thumbs .mr_thumb {
+    width: calc(100% - 20px);
+}
+
+/*-- /Section 4 - CC Partners --*/
+
+}
+
 
 @media only screen and (max-width: 480px) {
 
@@ -1980,5 +2403,39 @@ swiper-container {
 }
 
 /*-- /Section 8 - Our Partners --*/
+
+/*-- Section 2 - CC Page --*/
+
+.sect_3_cc_shape h2 {
+    font-size: 52px !important;
+}
+
+/*-- /Section 2 - CC Page --*/
+
+/*-- Section 7 - CC Partners --*/
+
+.rev_slide_cc {
+    padding: 10px 15px 35px 15px;
+}
+
+.rev_cc {
+    width: 325px;
+    margin: 0 auto;
+}
+
+.testimonial_thumb_content_final p {
+    font-size: 13px;
+}
+
+/*-- /Section 7 - CC Partners --*/
+
+/*-- Section 3 - CD --*/
+
+.mr_thumb {
+    width: 310px;
+    margin: 0 auto;
+}
+
+/*-- /Section 3 - CD --*/
 
 }
