@@ -442,7 +442,17 @@ $(document).ready(function() {
           slidesToScroll: 1,
           variableWidth: true,
           prevArrow: $(".test_sl_prev_final"),
-          nextArrow: $(".test_sl_next_final")
+          nextArrow: $(".test_sl_next_final"),
+          responsive: [
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    variableWidth: false
+                  }
+                }
+            ]
       });
     }
 
@@ -519,7 +529,17 @@ $(document).ready(function() {
           slidesToScroll: 2,
           variableWidth: true,
           prevArrow: $(".latest_news_prev"),
-          nextArrow: $(".latest_news_next")
+          nextArrow: $(".latest_news_next"),
+            responsive: [
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    variableWidth: false
+                  }
+                }
+            ]
       });
     }
 
@@ -536,7 +556,17 @@ $(document).ready(function() {
           slidesToScroll: 2,
           variableWidth: true,
           prevArrow: $(".mr_slide_prev"),
-          nextArrow: $(".mr_slide_next")
+          nextArrow: $(".mr_slide_next"),
+            responsive: [
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    variableWidth: false
+                  }
+                }
+            ]
       });
     }
 
@@ -551,7 +581,17 @@ $(document).ready(function() {
           slidesToScroll: 2,
           variableWidth: true,
           prevArrow: $(".rev_slide_prev"),
-          nextArrow: $(".rev_slide_next")
+          nextArrow: $(".rev_slide_next"),
+          responsive: [
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    variableWidth: false
+                  }
+                }
+            ]
       });
     }
 
