@@ -3,3 +3,4 @@
 # https://maindenis.github.io/mycrane2/world_about_2.html
 # https://maindenis.github.io/mycrane2/index_final.html
 # https://maindenis.github.io/mycrane2/crane_detail.html
+# https://maindenis.github.io/mycrane2/crane_category.html
