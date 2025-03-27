@@ -1025,3 +1025,145 @@ swiper-slide .atwork_thumb {
 }
 
 /*-- /Section 2 - CD --*/
+
+/*-- Section 3 - CD --*/
+
+.sect_3_cd {
+    padding: 42px 0 56px 0;
+}
+
+.h2_wrapp.left {
+	text-align: left;
+}
+
+.mr_slider_wrapp {
+    padding: 75px 0 70px 0;
+}
+
+.mr_slider {
+	margin: 0 -20px;
+}
+
+.mr_slide {
+	padding: 10px;
+}
+
+.mr_thumb {
+	display: block;
+	width: 331px;
+	min-height: 407px;
+	background: #FFF;
+	border: 1px solid #878787;
+	border-radius: 5px;
+}
+
+.mr_thumb .img_box {
+	margin: -1px;
+	height: 201px;
+	overflow: hidden;
+	border-radius: 5px 5px 0 0;
+}
+
+.mr_thumb .img_box img {
+	width: 100%;
+	height: 201px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.mr_thumb_descript {
+	padding: 15px 20px 10px 20px;
+}
+
+.mr_thumb_text {
+    min-height: 120px;
+}
+
+.mr_thumb_text h3 {
+	padding: 7px 0;
+	font-family: 'Onest';
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25px;
+	color: #495057;
+}
+
+.mr_thumb_text p {
+	font-size: 12px;
+	line-height: 20px;
+	color: #6C757D;
+}
+
+.more_link_2 {
+	display: inline-flex;
+	align-items: center;
+	font-family: 'Tactic Sans';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #2E2E2E;
+}
+
+.more_link_2 svg {
+	margin-left: 10px;
+}
+
+.mr_slide_arrow {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 50%;
+}
+
+.mr_slide_arrow svg {
+	position: relative;
+}
+
+.mr_slide_prev {
+	left: -20px;
+}
+
+.mr_slide_next {
+	 right: -17px;
+}
+
+.mr_slide_prev svg {
+    top: -1px;
+}
+
+.mr_slide_next svg {
+    top: -30px;
+}
+
+.mr_slider .slick-dots {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 35px 0 20px 0;
+}
+
+.mr_slider .slick-dots li {
+	line-height: 1;
+	padding: 5px 15px;
+}
+
+.mr_slider .slick-dots li button {
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: #2E2E2E;
+	border: none;
+	border-radius: 50%;
+	font-size: 0;
+	line-height: 0;
+	cursor: pointer;
+}
+
+.mr_slider .slick-dots .slick-active button {
+	background: #FFD300;
+}
+
+/*-- /Section 3 - CD --*/
